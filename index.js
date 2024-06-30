@@ -21,6 +21,7 @@ function is_prime(number){
     return true
 } //function to check whether a number is prime or not
 
+// Implementing RSA algorithm
 function dat(c, e, n) {
     const cDecimal = BigInt(c); // Using BigInt to handle large integers
     const eDecimal = BigInt(e);
